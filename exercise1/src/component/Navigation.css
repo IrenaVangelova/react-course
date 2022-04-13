@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    margin: 0 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav .logo span.logo__title {
+    font-family: 'Special Elite', cursive;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+nav .logo img {
+    flex-basis: 50%;
+    display: block;
+    width: 200px;
+    margin: 0 .5rem
+}

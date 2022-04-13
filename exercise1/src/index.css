@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+.main_content {
+  /* background-color: rgb(182, 182, 182); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.button {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  border-radius: .5rem;
+  font-weight: 500;
+  color: white;
+  border: none;
+  padding: .4rem 1rem;
+  margin: .5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.button:hover {
+  box-shadow: 0px 5px 20px rgba(28, 85, 230, 0.4);
+  color: #eee
+}
+
+.button-primary {
+  background-color: rgb(28, 85, 230);
+}
+
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}

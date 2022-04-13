@@ -1,0 +1,17 @@
+.employee_list {
+    flex-basis: 40%;
+}
+.employee_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid #eeeeee;
+    margin: 0 auto;
+}
+
+.button-list{
+    background-color: #ccc8e8e9;
+    border-radius: 5px;
+    padding: 5px;
+}
