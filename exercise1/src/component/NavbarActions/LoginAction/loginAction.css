@@ -8,3 +8,13 @@ button{
     cursor: pointer;
     margin : 5px;
 }
+
+#username{
+    margin-right: 5px;
+    width: 30%;
+}
+
+#password {
+    width: 30%;
+    margin-right: 5px;
+}
